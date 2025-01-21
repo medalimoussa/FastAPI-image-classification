@@ -6,19 +6,33 @@ This project is a FastAPI-based web service for image classification using the p
 ## Project structure
 
 FastAPI project/
+
 │-- **app**/
+
 │ │--  \_\_init\_\_.py
+
 │ │-- main.py # API routes and app instance
+
 │ │-- model.py # Model loading and prediction logic
+
 │ │-- schemas.py # Pydantic request/response models
+
 │ │-- utils.py # Utility functions (e.g., image preprocessing)
+
 │-- tests/
+
 │ │--  \_\_init\_\_.py
+
 │ │-- test_api.py # Tests for API endpoints
+
 │ │-- test_model.py # Tests for model loading and predictions
+
 │ │-- Req_image.jpg # The used image for the testing 
+
 │-- requirements.txt # Python dependencies
+
 │-- README.md # Project documentation
+
 
 
 ## 1- Getting Started
